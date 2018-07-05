@@ -33,7 +33,7 @@ ul{
 /*Header**/
 header{
 	background:#35424a;
-	color:#ffffff;
+	color:#FFF8DC;
 	padding-top:30px;
 	min-height:70px;
 	border-bottom:#e8491d 3px solid;
@@ -46,7 +46,7 @@ header{
 }
 
 header a{
-	color:#ffffff;
+	color:#FFF8DC;
 	text-decoration:none;
 	text-transform: uppercase;
 	font-size:16px;
@@ -64,6 +64,7 @@ header #branding{
 
 header #branding h1{
 	margin:0
+ 
 }
 
 header nav{
@@ -81,16 +82,39 @@ header a:hover{
 /*Showcase*/
 
 #showcase{
-	min-height:300px;
-	background:url("../img/leather3.jpg") no-repeat;
+	min-height:200px;
+	background:url("../img/leather5.jpg") no-repeat;
 	background-size: 100% 100%;
-	text-align:center;
-	color:#000000;
-	text-shadow:#ffffff 2px 2px;
-	
+	text-align:right;
+	font-size: 20px;
+	color:#FFF8DC;
+	text-shadow: #35424a 1px 1px
+}
+
+#showcase p{
+	margin-top:50px;
 }
 	
+#newsletter{
+	padding:15px;
+	color:#fff8dc;
+	background-color:#35424a;
+}
 
+#newsletter h1{
+	float:left;
+}
+
+#newsletter form{
+	float:right;
+	margin-top:20px;
+}
+
+#newsletter input [type='email']{
+	padding:4px;
+	height:25px;
+	width:250px;
+}
 	
 	
 	
