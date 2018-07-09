@@ -2,8 +2,9 @@ body{
 font:15px/1.5 Arial, Helvetica, sans-serif;
 padding:0;
 margin:0;
-background-color:#f4f4f4;
+background-color:#ffffff;
 }
+
 
 /*Global*/
 
@@ -30,19 +31,29 @@ ul{
 	padding:0;
 }
 
+.button_1{
+	height:36px;
+	background:#fff8dc;
+	border:2px;
+	padding-left:20px;
+	padding-right:20px;
+	color:#35424a;
+}
+
+
+
 /*Header**/
+
 header{
 	background:#35424a;
 	color:#FFF8DC;
 	padding-top:30px;
 	min-height:70px;
-	border-bottom:#e8491d 3px solid;
+	border-bottom:#CD853F 3px solid;
 }
 
 #branding{
 	margin-left:50px;
-	
-
 }
 
 header a{
@@ -64,7 +75,6 @@ header #branding{
 
 header #branding h1{
 	margin:0
- 
 }
 
 header nav{
@@ -73,7 +83,7 @@ header nav{
 }
 
 header a:hover{
-	color:#cccccc;
+	color:#ffffff;
 	font-weight:bold;
 }
 
@@ -94,7 +104,11 @@ header a:hover{
 #showcase p{
 	margin-top:50px;
 }
-	
+
+
+
+/*Newsletter*/
+
 #newsletter{
 	padding:15px;
 	color:#fff8dc;
@@ -110,11 +124,39 @@ header a:hover{
 	margin-top:20px;
 }
 
-#newsletter input [type='email']{
+#newsletter input[type='email']{
 	padding:4px;
 	height:25px;
 	width:250px;
 }
 	
+
+/* Boxes*/
+
+#boxes{
+	margin-top:20px;
+}
+
+#boxes .box{
+	float:left;
+	width:30%;
+	padding:10px;
+	text-align:center;
+}
+
+#boxes .box img{
+	width:100px;
+}
+
+
+
+footer{
+	padding:10px;
+	margin-top:250px;
+	color:#FFF8DC;
+	background-color:#35424a;
+	text-align: center;
+}
+
 	
 	
